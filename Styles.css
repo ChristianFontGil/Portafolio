@@ -12,28 +12,27 @@
  }
 
 body{
-    height: 100vh;
     background: linear-gradient(180deg,rgba(15, 19, 38, 1) 0%, rgba(16, 16, 20, 1) 100%);
 } 
 
 .navbar-toggler-icon{
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(99,241,255,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
-/* .nav-link {
-    color: #FFF;
+.navbar-toggler{
+  border-color: rgb(99, 241, 255,100); 
 }
-.nav-link:hover {
-    color: rgb(99, 241, 255,100);
+.navbar-toggler:focus,
+.navbar-toggler:active{
+  outline: none;
+  box-shadow: 0 0 0 0.25rem rgb(99, 241, 255,100); 
+  border-color: rgb(99, 241, 255,100);
 }
-.nav-link:focus {
-    color: rgb(99, 241, 255,100);
+.formbut{
+    color: #22D3EE;
 }
-.nav-link:active {
-    color: #FFF;
-    color: rgb(86, 107, 204,80); 
-} */
+
 .navbar{
-    --bs-navbar-color: rgba(255,255,255,.85);
+    --bs-navbar-color: #fff;
     --bs-navbar-hover-color:rgb(99, 241, 255,100);
     --bs-navbar-focus-color:rgb(99, 241, 255,100);
     --bs-navbar-active-color:rgb(99, 241, 255,100);
@@ -49,6 +48,7 @@ h1{
 }
 h2{
  font-size: 2.0em;
+ 
 }
 h3{
 font-size: 1.5em;
@@ -79,6 +79,10 @@ font-family: 'sora';
     justify-self: center;
     width: 75px;
     height: 75px ;
+}
+.card,.card-button {
+    border-color: #22D3EE;
+    color: #22D3EE;
 }
 
 
