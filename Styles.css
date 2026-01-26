@@ -312,8 +312,34 @@ section h2{
 .modal-content-game{
   border: 1px solid #566BCC;
 }
+.modal-content-game-header{
+    background-color: #566BCC ;
+  color: #000;
+  font-family: 'sora';
+  font-weight: bold;
+  border-color: #566BCC;
+}
+.modal-content-game-body{
+  border-color: #566BCC;
+}
+.modal-content-game-footer{
+ border-color: #566BCC;
+}
 .modal-content-writer{
   border: 1px solid #B34FFF;
+}
+.modal-content-writer-header{
+    background-color: #B34FFF ;
+  color: #000;
+  font-family: 'sora';
+  font-weight: bold;
+  border-color: #B34FFF;
+}
+.modal-content-writer-body{
+  border-color: #B34FFF;
+}
+.modal-content-writer-footer{
+ border-color: #B34FFF;
 }
 /* modal end */
 
