@@ -106,8 +106,8 @@ body {
   color: #fff;
 }
 .nav-button:hover {
-  border: 1px solid #63f1ff;
-  color: #63f1ff;
+  background: #63f1ff;
+  color: #000000;
 }
 .flags {
   width: 30px;
@@ -118,6 +118,7 @@ body {
 input.form-control {
   background-color: transparent;
   color: #63f1ff;
+  border-color: #ffffff;
 }
 input.form-control::placeholder {
   color: #fff;
@@ -236,18 +237,17 @@ input.form-control:focus {
 /* forms start */
 .form-border {
   border: 1px solid #63f1ff;
-  border-color: #63f1ff;
 }
 .form-border::placeholder {
-  color: #00778a !important;
+  color: #ffffff !important;
 }
 .form-textarea {
   background-color: transparent;
   color: #63f1ff;
-  border-color: #63f1ff;
+  border-color: #ffffff;
 }
 .form-textarea::placeholder {
-  color: #00778a;
+  color: #ffffff;
 }
 .form-textarea:focus {
   background-color: transparent;
@@ -257,8 +257,7 @@ input.form-control:focus {
 }
 .form-btn {
   color: #fff;
-  border: #63f1ff 1px solid;
-  border-color: #63f1ff;
+  border: #ffffff 1px solid;
 }
 .form-btn:hover {
   color: #000;
@@ -338,6 +337,11 @@ section h2 {
 .modal-content-game {
   border: 1px solid #566bcc;
 }
+.modal-content-game-body h5 {
+  border-color: #566bcc;
+  border-bottom: 1px solid #566bcc;
+  color: #566bcc;
+}
 .modal-content-game-header {
   background-color: #566bcc;
   color: #000;
@@ -360,6 +364,11 @@ section h2 {
 .modal-content-writer {
   border: 1px solid #b34fff;
 }
+.modal-content-writer-body h5 {
+  border-color: #b34fff;
+  border-bottom: 1px solid #b34fff;
+  color: #b34fff;
+}
 .modal-content-writer-header {
   background-color: #b34fff;
   color: #000;
@@ -375,6 +384,12 @@ section h2 {
   width: 100%;
   object-fit: cover;
   object-position: center;
+}
+.modal-book2 img{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
 }
 .modal-content-writer-footer {
   border-color: #b34fff;
@@ -448,3 +463,15 @@ footer a:hover {
   background-color: #00778a;
   color: #fff;
 }
+
+/* span start */
+.spwtr{
+    border: 1px solid #b34fff;
+  background: rgba(179, 79, 255, 0.12);
+  border-radius: 5px;
+  padding: 2px;
+  backdrop-filter: blur(8px);
+  letter-spacing: 1px;
+  box-shadow: 1px rgba(179, 79, 255, 0.15);
+}
+/* span end */
